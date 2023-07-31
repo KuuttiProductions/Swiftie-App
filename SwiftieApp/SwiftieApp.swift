@@ -14,7 +14,7 @@ struct SwiftieAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .fontDesign(.serif)
         }
-        .modelContainer(for: Item.self)
     }
 }

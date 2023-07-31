@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5161664C2A7177DD007C663A /* SwiftieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161664B2A7177DD007C663A /* SwiftieAppApp.swift */; };
-		5161664E2A7177DD007C663A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161664D2A7177DD007C663A /* Item.swift */; };
+		511FFF532A718CBD00BAE9EF /* SwiftieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511FFF522A718CBD00BAE9EF /* SwiftieView.swift */; };
+		511FFF552A718E3000BAE9EF /* AppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511FFF542A718E3000BAE9EF /* AppearanceView.swift */; };
+		511FFF5B2A71937700BAE9EF /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511FFF5A2A71937700BAE9EF /* CatalogView.swift */; };
+		5161664C2A7177DD007C663A /* SwiftieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161664B2A7177DD007C663A /* SwiftieApp.swift */; };
 		516166502A7177DD007C663A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161664F2A7177DD007C663A /* ContentView.swift */; };
 		516166522A7177E0007C663A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516166512A7177E0007C663A /* Assets.xcassets */; };
 		516166562A7177E0007C663A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516166552A7177E0007C663A /* Preview Assets.xcassets */; };
 		516166602A7177E0007C663A /* SwiftieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161665F2A7177E0007C663A /* SwiftieAppTests.swift */; };
 		5161666A2A7177E0007C663A /* SwiftieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516166692A7177E0007C663A /* SwiftieAppUITests.swift */; };
 		5161666C2A7177E0007C663A /* SwiftieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5161666B2A7177E0007C663A /* SwiftieAppUITestsLaunchTests.swift */; };
+		51BB1F1B2A72882B008850CB /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB1F1A2A72882B008850CB /* Song.swift */; };
+		51BB1F1D2A73BE95008850CB /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB1F1C2A73BE95008850CB /* PreviewContainer.swift */; };
+		51BB1F1F2A73F7C0008850CB /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB1F1E2A73F7C0008850CB /* SongView.swift */; };
+		51BB1F222A73FD79008850CB /* SongCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB1F212A73FD79008850CB /* SongCard.swift */; };
+		51BB1F242A740A54008850CB /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB1F232A740A54008850CB /* Album.swift */; };
+		51BB1F262A740ACD008850CB /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB1F252A740ACD008850CB /* Albums.swift */; };
+		51BB1F282A740D7B008850CB /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BB1F272A740D7B008850CB /* AlbumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		511FFF522A718CBD00BAE9EF /* SwiftieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftieView.swift; sourceTree = "<group>"; };
+		511FFF542A718E3000BAE9EF /* AppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceView.swift; sourceTree = "<group>"; };
+		511FFF5A2A71937700BAE9EF /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		516166482A7177DD007C663A /* SwiftieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5161664B2A7177DD007C663A /* SwiftieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftieAppApp.swift; sourceTree = "<group>"; };
-		5161664D2A7177DD007C663A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5161664B2A7177DD007C663A /* SwiftieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftieApp.swift; sourceTree = "<group>"; };
 		5161664F2A7177DD007C663A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		516166512A7177E0007C663A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516166532A7177E0007C663A /* SwiftieApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftieApp.entitlements; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		516166652A7177E0007C663A /* SwiftieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		516166692A7177E0007C663A /* SwiftieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftieAppUITests.swift; sourceTree = "<group>"; };
 		5161666B2A7177E0007C663A /* SwiftieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51BB1F1A2A72882B008850CB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		51BB1F1C2A73BE95008850CB /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
+		51BB1F1E2A73F7C0008850CB /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		51BB1F212A73FD79008850CB /* SongCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCard.swift; sourceTree = "<group>"; };
+		51BB1F232A740A54008850CB /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		51BB1F252A740ACD008850CB /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		51BB1F272A740D7B008850CB /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511FFF562A71915900BAE9EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51BB1F202A73FD67008850CB /* Modules */,
+				5161664F2A7177DD007C663A /* ContentView.swift */,
+				511FFF522A718CBD00BAE9EF /* SwiftieView.swift */,
+				511FFF542A718E3000BAE9EF /* AppearanceView.swift */,
+				511FFF5A2A71937700BAE9EF /* CatalogView.swift */,
+				51BB1F272A740D7B008850CB /* AlbumView.swift */,
+				51BB1F1E2A73F7C0008850CB /* SongView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		511FFF572A71915E00BAE9EF /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				51BB1F1A2A72882B008850CB /* Song.swift */,
+				51BB1F232A740A54008850CB /* Album.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		511FFF5C2A7194E800BAE9EF /* Catalogue */ = {
+			isa = PBXGroup;
+			children = (
+				51BB1F252A740ACD008850CB /* Albums.swift */,
+			);
+			path = Catalogue;
+			sourceTree = "<group>";
+		};
 		5161663F2A7177DD007C663A = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +146,11 @@
 		5161664A2A7177DD007C663A /* SwiftieApp */ = {
 			isa = PBXGroup;
 			children = (
-				5161664B2A7177DD007C663A /* SwiftieAppApp.swift */,
-				5161664D2A7177DD007C663A /* Item.swift */,
-				5161664F2A7177DD007C663A /* ContentView.swift */,
+				5161664B2A7177DD007C663A /* SwiftieApp.swift */,
+				51BB1F1C2A73BE95008850CB /* PreviewContainer.swift */,
+				511FFF572A71915E00BAE9EF /* Types */,
+				511FFF562A71915900BAE9EF /* Views */,
+				511FFF5C2A7194E800BAE9EF /* Catalogue */,
 				516166512A7177E0007C663A /* Assets.xcassets */,
 				516166532A7177E0007C663A /* SwiftieApp.entitlements */,
 				516166542A7177E0007C663A /* Preview Content */,
@@ -130,6 +181,14 @@
 				5161666B2A7177E0007C663A /* SwiftieAppUITestsLaunchTests.swift */,
 			);
 			path = SwiftieAppUITests;
+			sourceTree = "<group>";
+		};
+		51BB1F202A73FD67008850CB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				51BB1F212A73FD79008850CB /* SongCard.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +321,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5161664E2A7177DD007C663A /* Item.swift in Sources */,
-				5161664C2A7177DD007C663A /* SwiftieAppApp.swift in Sources */,
+				51BB1F222A73FD79008850CB /* SongCard.swift in Sources */,
+				51BB1F1F2A73F7C0008850CB /* SongView.swift in Sources */,
+				511FFF532A718CBD00BAE9EF /* SwiftieView.swift in Sources */,
+				51BB1F262A740ACD008850CB /* Albums.swift in Sources */,
+				5161664C2A7177DD007C663A /* SwiftieApp.swift in Sources */,
+				511FFF552A718E3000BAE9EF /* AppearanceView.swift in Sources */,
+				51BB1F282A740D7B008850CB /* AlbumView.swift in Sources */,
+				51BB1F1B2A72882B008850CB /* Song.swift in Sources */,
+				51BB1F1D2A73BE95008850CB /* PreviewContainer.swift in Sources */,
+				511FFF5B2A71937700BAE9EF /* CatalogView.swift in Sources */,
+				51BB1F242A740A54008850CB /* Album.swift in Sources */,
 				516166502A7177DD007C663A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +496,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -466,6 +535,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
